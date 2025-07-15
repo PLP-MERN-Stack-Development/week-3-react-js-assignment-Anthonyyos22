@@ -70,9 +70,11 @@ npm run dev
 http://localhost:5173
 ```
 
-Available Scripts
+or 
 
-```bash
-npm run dev    
+```text
+[http://localhost:5173](https://wk3-task-manager.vercel.app/)
 ```
+
+
 
