@@ -1,9 +1,27 @@
+import Layout from "./components/Layout";
+import Button from "./components/Button";
+import Card from "./components/Card";
+
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-100">
-      <h1 className="text-4xl font-bold text-blue-700">
-        Hello Vite + React + Tailwind 3.3.3! 🚀
-      </h1>
-    </div>
+    <Layout>
+      <h1 className="text-3xl font-bold mb-6">Welcome to MySite!</h1>
+      <div className="grid gap-6 md:grid-cols-2">
+        <Card title="Card 1">
+          <p>This is a reusable card component.</p>
+          <Button variant="primary">Primary Action</Button>
+        </Card>
+
+        <Card title="Card 2">
+          <p>Same Card, different content.</p>
+          <Button variant="secondary">Secondary Action</Button>
+        </Card>
+
+        <Card title="Danger Example">
+          <p>Be careful with dangerous actions!</p>
+          <Button variant="danger">Delete</Button>
+        </Card>
+      </div>
+    </Layout>
   );
 }
