@@ -65,16 +65,8 @@ npm install
 npm run dev
 ```
 4. Open your browser at:
+## 🌐 Live Demo
 
-```text
-http://localhost:5173
-```
-
-or 
-
-```text
-[http://localhost:5173](https://wk3-task-manager.vercel.app/)
-```
-
-
+[![Visit on Vercel](https://img.shields.io/badge/Live%20Site-vercel.app-blue?logo=vercel)](https://wk3-task-manager.vercel.app/)
+[![Run Locally](https://img.shields.io/badge/Localhost-5173-orange?logo=localhost)](http://localhost:5173)
 
